@@ -1,0 +1,224 @@
+[
+    {
+        "title": "AI热门工具",
+        "cards": [
+            {
+                "id": "101",
+                "name": "豆包",
+                "description": "抖音旗下AI助手",
+                "img": "doubao.jpg",
+                "link": "https://doubao.com"
+            },
+            {
+                "id": "102",
+                "name": "Deepseek",
+                "description": "深度求索推出的开源大模型",
+                "img": "deepseek.jpg",
+                "link": "https://deepseek.com"
+            }
+        ]
+    },
+    {
+        "title": "AI对话聊天",
+        "cards": [
+            {
+                "id": "201",
+                "name": "豆包",
+                "description": "抖音旗下AI助手",
+                "img": "doubao.jpg",
+                "link": "https://doubao.com"
+            },
+            {
+                "id": "202",
+                "name": "Deepseek",
+                "description": "深度求索推出的开源大模型",
+                "img": "deepseek.jpg",
+                "link": "https://deepseek.com"
+            },
+            {
+                "id": "203",
+                "name": "通义千问",
+                "description": "阿里推出的自研大模型，通情、达义，你的全能AI助手！",
+                "img": "tongyiqianwen.jpg",
+                "link": "https://qianwen.aliyun.com"
+            },
+            {
+                "id": "204",
+                "name": "文心一言",
+                "description": "百度推出的基于文心大模型的AI对话互动工具",
+                "img": "wenxinyiyan.jpg",
+                "link": "https://yiyan.baidu.com"
+            },
+            {
+                "id": "205",
+                "name": "ChatGPT",
+                "description": "ChatGPT 是人工智能研究实验室 OpenAI 发布的聊天机器人模型",
+                "img": "chatgpt.jpg",
+                "link": "https://chatgpt.com"
+            },
+            {
+                "id": "206",
+                "name": "Claude",
+                "description": "Claude 是人工智能研究实验室 Anthropic 发布的聊天机器人模型",
+                "img": "claude.jpg",
+                "link": "https://claude.ai"
+            }
+        ]
+    },
+    {
+        "title": "AI文本工具",
+        "cards": [
+            {
+                "id": "301",
+                "name": "豆包",
+                "description": "抖音旗下AI助手",
+                "img": "doubao.jpg",
+                "link": "https://doubao.com"
+            },
+            {
+                "id": "302",
+                "name": "Deepseek",
+                "description": "深度求索推出的开源大模型",
+                "img": "deepseek.jpg",
+                "link": "https://deepseek.com"
+            }
+        ]
+    },
+    {
+        "title": "AI编程工具",
+        "cards": [
+            {
+                "id": "401",
+                "name": "Cursor",
+                "description": "Cursor 是一款AI编程工具，支持多种编程语言，包括Python、JavaScript、TypeScript等",
+                "img": "cursor.jpg",
+                "link": "https://cursor.sh"
+            },
+            {
+                "id": "402",
+                "name": "Windsurf",
+                "description": "Windsurf 是一款AI编程工具，支持多种编程语言，包括Python、JavaScript、TypeScript等",
+                "img": "windsurf.jpg",
+                "link": "https://windsurf.com"
+            },
+            {
+                "id": "403",
+                "name": "Bolt",
+                "description": "Bolt 是一款AI编程工具，支持多种编程语言",
+                "img": "bolt.jpg",
+                "link": "https://bolt.sh"
+            }
+        ]
+    },
+    {
+        "title": "AI绘画",
+        "cards": [
+            {
+                "id": "501",
+                "name": "即梦AI",
+                "description": "即梦AI是一款AI绘画工具，支持多种绘画风格，包括卡通、水彩、油画等",
+                "img": "jimeng.jpg",
+                "link": "https://jimeng.com"
+            },
+            {
+                "id": "502",
+                "name": "Midjourney",
+                "description": "Midjourney 是一款AI绘画工具，支持多种绘画风格，包括卡通、水彩、油画等",
+                "img": "midjourney.jpg",
+                "link": "https://midjourney.com"    
+            }
+        ]
+    },
+    {
+        "title": "AI新闻",
+        "cards": [
+            {
+                "id": "601",
+                "name": "量子位",
+                "description": "追踪人工智能新趋势,报道科技行业新突破",
+                "img": "liangziwei.jpg",
+                "link": "https://www.qbitai.com"
+            },
+            {
+                "id": "602",
+                "name": "机器之心",
+                "description": "机器之心是国内领先的前沿科技媒体和产业服务平台，关注人工智能、机器人和神经认知科学，坚持为从业者提供高质量内容和多项产业服务。",
+                "img": "jiqizhixin.jpg",
+                "link": "https://www.jiqizhixin.com"    
+            },
+            {
+                "id": "603",
+                "name": "51CTO-AI",
+                "description": "51CTO人工智能专区是人工智能相关技术、资讯、热点、访谈的集聚地。主要包含人工智能、深度学习、机器学习、神经网络、语音识别、语义识别、人脸识别、无人驾驶、无人机、机器人等",
+                "img": "51cto.jpg",
+                "link": "https://www.51cto.com"
+            }
+        ]
+    },
+    {
+        "title": "大模型API",
+        "cards": [
+            {
+                "id": "701",
+                "name": "OpenAI",
+                "description": "OpenAI 是一家专注于人工智能研究和应用的公司，提供多种API接口，包括GPT-4、DALL-E等",
+                "img": "openai.jpg",
+                "link": "https://openai.com"
+            },
+            {
+                "id": "702",
+                "name": "DeepSeek",
+                "description": "DeepSeek 是一家专注于人工智能研究和应用的公司，提供多种API接口，包括GPT-4、DALL-E等",
+                "img": "deepseek.jpg",
+                "link": "https://deepseek.com"    
+            },
+            {
+                "id": "703",
+                "name": "通义千问",
+                "description": "通义千问是阿里巴巴推出的自研大模型，提供多种API接口，包括GPT-4、DALL-E等",
+                "img": "tongyiqianwen.jpg",
+                "link": "https://qianwen.aliyun.com"
+            },
+            {
+                "id": "704",
+                "name": "Gemini",
+                "description": "Gemini 是谷歌推出的自研大模型，提供多种API接口，包括GPT-4、DALL-E等",
+                "img": "gemini.jpg",
+                "link": "https://gemini.google.com"
+            },
+            {
+                "id": "705",
+                "name": "Llama",
+                "description": "Llama 是Meta推出的自研大模型，提供多种API接口，包括GPT-4、DALL-E等",
+                "img": "llama.jpg",
+                "link": "https://llama.com"
+            }
+        ]
+    },
+    {
+        "title": "Agent工具",
+        "cards": [
+            {
+                "id": "801",
+                "name": "Coze",
+                "description": "Coze 是一款AI Agent工具，支持多种Agent，包括GPT-4、DALL-E等",
+                "img": "coze.jpg",
+                "link": "https://coze.com"
+            },
+            {
+                "id": "802",
+                "name": "GPTs",
+                "description": "GPTs 是OpenAI推出的自研大模型，提供多种API接口，包括GPT-4、DALL-E等",
+                "img": "chatgpt.jpg",
+                "link": "https://chatgpt.com"
+            },
+            {
+                "id": "803",
+                "name": "Langchain",
+                "description": "Langchain 是一款AI Agent工具，支持多种Agent，包括GPT-4、DALL-E等",
+                "img": "langchain.jpg",
+                "link": "https://langchain.com"
+            }
+        ]
+    }
+]   
