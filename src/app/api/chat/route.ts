@@ -39,7 +39,7 @@ export async function POST(req: Request) {
     
     if (!apiKey) {
       console.log('未找到DeepSeek API密钥，使用模拟响应');
-      return getSimulatedResponse(userMessage);
+      return useSimulatedResponse(userMessage);
     }
 
     // 尝试使用主要模型，如果失败则回退到备用模型
@@ -87,7 +87,7 @@ export async function POST(req: Request) {
       } catch (fallbackModelError) {
         console.error(`使用备用模型 ${modelToUse} 调用API失败:`, fallbackModelError);
         // 两个模型都失败了，回退到模拟响应
-        return getSimulatedResponse(
+        return useSimulatedResponse(
           userMessage, 
           `(注意: DeepSeek API调用失败，错误信息: ${errorMessage}，使用模拟响应)`
         );
@@ -185,8 +185,11 @@ ${modelId === MODELS.primary ? `作为推理专家，你的特点是能够"思�
   return data;
 }
 
-// 模拟响应函数 - 重命名为getSimulatedResponse避免与React Hook命名规范冲突
-function getSimulatedResponse(userMessage: string, prefix = '') {
+// 模拟响应函数
+async function useSimulatedResponse(userMessage: string, prefix = '') {
+  // 模拟延迟
+  await new Promise(resolve => setTimeout(resolve, 1000));
+
   // 构建模拟的DeepSeek R1响应
   const response = `<think>
 这是一个用户问题，我需要思考如何回答："${userMessage}"
